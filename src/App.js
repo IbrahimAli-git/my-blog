@@ -8,7 +8,7 @@ import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
 import LoginPage from './pages/LoginPage';
 import CreateAccountPage from './pages/CreateAccountPage';
-import './App.css';
+
 
 function App() {
   return (
