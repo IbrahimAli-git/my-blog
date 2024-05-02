@@ -8,7 +8,10 @@ import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
 import LoginPage from './pages/LoginPage';
 import CreateAccountPage from './pages/CreateAccountPage';
-
+import Footer from './Footer';
+// https://www.linkedin.com/learning/react-creating-and-hosting-a-full-stack-site-15153869/creating-a-firebase-project?u=69719634
+// https://youtu.be/I2UBjN5ER4s?feature=shared
+// https://youtu.be/_NPzWvTD2w8?feature=shared
 
 function App() {
   return (
@@ -30,6 +33,7 @@ function App() {
 
           </Routes>
         </div>
+        <Footer />
 
       </div>
     </BrowserRouter>

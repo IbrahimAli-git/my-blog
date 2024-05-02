@@ -17,7 +17,7 @@ const CreateAccountPage = () => {
                 setError('Password and confirm password do not match');
                 return;
             }
-            await createUserWithEmailAndPassword(getAuth, email, password);
+            await createUserWithEmailAndPassword(getAuth(), email, password);
             navigate('/articles');
         } catch (e) {
             setError(e.message);

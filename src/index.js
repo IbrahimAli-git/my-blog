@@ -3,20 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-
+import { initializeApp } from "firebase/app"; // Import the functions you need from the SDKs you need
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 // Your web app's Firebase configuration
-// Public keys below
 const firebaseConfig = {
-  apiKey: "AIzaSyDjocpvTGbhIwuORbjfwP3JHNuKrJc8Iw8",
-  authDomain: "my-react-blog-12f04.firebaseapp.com",
-  projectId: "my-react-blog-12f04",
-  storageBucket: "my-react-blog-12f04.appspot.com",
-  messagingSenderId: "288747583383",
-  appId: "1:288747583383:web:75cc81a1ef0ecc263d76d2"
+  apiKey: "AIzaSyCvRyUyc9tWExR6KZl_tfZDRVJjI2x87OY",
+  authDomain: "my-blog-uni.firebaseapp.com",
+  projectId: "my-blog-uni",
+  storageBucket: "my-blog-uni.appspot.com",
+  messagingSenderId: "284033964197",
+  appId: "1:284033964197:web:02d9004a01d5aa7c56554c"
 };
 
 // Initialize Firebase
